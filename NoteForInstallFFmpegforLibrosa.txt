@@ -1,0 +1,13 @@
+There are few things you need to check:
+
+librosa can't read mp3 files directly so it tries to use the audioread package.
+
+Audioread tries to utilise a number of different packages that may or may not be installed. One of those is ffmpeg.
+
+However it uses FFmpeg 'via its command-line interface'. I think this is the reason that pip installing FFmpeg doesn't work. It needs the ffmpeg.exe file.
+
+You can download the ffmpeg installer from here
+
+After it is installed make sure you can start ffmpeg from the command line (type ffmpeg -h). You will probably need to add the path to the install folder (eg c:\ffmpeg\bin) to the Windows path.
+
+Finally, make sure to restart your IDE. Visual Studio Code probably won't recognise the new path until after a reset.
