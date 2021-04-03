@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# In[37]:
-
-
+#documentation page for librosa module
 #https://librosa.org/doc/main/auto_examples/plot_display.html
+
 import librosa, audioread
 import librosa.display
 import matplotlib.pyplot as plt
