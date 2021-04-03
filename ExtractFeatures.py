@@ -12,7 +12,14 @@ import numpy as np
 import os, cv2, warnings
 from pydub import AudioSegment
 
+#functioncall for creating output directory if missing
+def createDirIfMissing(dir):
+	if not os.path.isdir(dir):
+		os.makedirs(dir)
+			
+#these folders must be created before running script
 folders=['Progressive_Rock_Songs','Not_Progressive_Rock/Other_Songs','Not_Progressive_Rock/Top_Of_The_Pops']
+
 saveFolders = ['ExtractDataset/prog/', 'ExtractDataset/nonprog/']
 
 #1 for prog; 0 for nonprog
