@@ -22,6 +22,10 @@ folders=['Progressive_Rock_Songs','Not_Progressive_Rock/Other_Songs','Not_Progre
 
 saveFolders = ['ExtractDataset/prog/', 'ExtractDataset/nonprog/']
 
+#check for existence of output save folders
+for folder in saveFolders:
+	createDirIfMissing(folder)
+
 #1 for prog; 0 for nonprog
 database = {'idx':[],'ReName':[],'Style':[],'Label':[],'StartDur (Sec)':[],'EndDur (Sec)':[],'Duration (Sec)':[]
             ,'OriName':[], 'DbMax':[],'DbMin':[]}
