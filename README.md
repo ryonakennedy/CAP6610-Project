@@ -24,7 +24,8 @@ cd CAP6610-Project
 ```
 mkdir Dataset
 ```
-4. Copy music files into Dataset folder retaining music folder hierarchy(make sure only audio files are in directories or script may halt/fail)
+4. Copy music files into Dataset folder retaining music folder hierarchy
+(make sure only audio files are in directories or script may halt/fail)
 ```
 Dataset
 ├── Not_Progressive_Rock
