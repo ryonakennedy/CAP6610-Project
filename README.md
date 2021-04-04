@@ -20,7 +20,7 @@ git clone https://github.com/ryonakennedy/CAP6610-Project
 ```
 cd CAP6610-Project
 ```
-3. Install project requirements
+3. Install project requirements (linux example)
 ```
 pip3 install -r requirements.txt
 ```
