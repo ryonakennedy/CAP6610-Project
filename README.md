@@ -24,6 +24,9 @@ cd CAP6610-Project
 ```
 pip3 install -r requirements.txt
 ```
+```
+apt-get install ffmpeg
+```
 4. Create folder for music files used to extract features from
 ```
 mkdir Dataset
