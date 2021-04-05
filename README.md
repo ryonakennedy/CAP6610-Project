@@ -10,8 +10,7 @@
 
 ## Install Tools ##
 * ffmpeg
-
-https://www.ffmpeg.org/
+  https://www.ffmpeg.org/
 
 ## Setup ##
 1. Clone repository
